@@ -1,12 +1,13 @@
+package Tugas1;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Pendidikan {
     private static String riwayatSd;
     private static String riwayatSmp;
     private static String riwayatSma;
     private static String riwayatSarjana;
-    private static Scanner input;
+    // private static Scanner input;
 
     public static String getriwayatSd() {
         return riwayatSd;
@@ -42,18 +43,18 @@ public class Pendidikan {
 
     public static void getDetailPendidikan() {
 
-        input = new Scanner(System.in);
+        // input = new Scanner(System.in);
 
-        System.out.println("Masukkan Nama SD : ");
-        riwayatSd = input.next();
-        System.out.println("Masukkan Nama SMP : ");
-        riwayatSmp = input.next();
+        // System.out.println("Masukkan Nama SD : ");
+        // riwayatSd = input.next();
+        // System.out.println("Masukkan Nama SMP : ");
+        // riwayatSmp = input.next();
         
-        System.out.println("Masukkan Nama SMA : ");
-        riwayatSma = input.next();
+        // System.out.println("Masukkan Nama SMA : ");
+        // riwayatSma = input.next();
         
-        System.out.println("Masukkan Nama Universitas : ");
-        riwayatSarjana = input.next();
+        // System.out.println("Masukkan Nama Universitas : ");
+        // riwayatSarjana = input.next();
 
         System.out.println(" ");
         System.out.println("----- RIWAYAT PENDIDIKAN -----");
