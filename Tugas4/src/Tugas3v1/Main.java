@@ -17,7 +17,7 @@ public class Main
             System.out.println("-------- Menampilkan Gambar, Karakteristik, Luas dan Keliling Bangun Datar  ----------");
             int pilihMenuHitung;
 
-            System.out.println("Pilihan Menu: \n 1. Segitiga \n 2. Lingkaran \n 3. Persegi\n");
+            System.out.println("Pilihan Menu: \n 1. Segitiga \n 2. Lingkaran \n 3. Persegi \n 4. Exit\n");
             System.out.println("Masukkan Pilihan :");
             pilihMenuHitung = input.nextInt();
             System.out.println(" ");
@@ -70,6 +70,9 @@ public class Main
                     
                     System.out.println("//////////////////////////////////////////");
                     System.out.println(" ");
+                break;
+                case 4:
+                    System.exit(0);
                 break;
                 
                 default:
