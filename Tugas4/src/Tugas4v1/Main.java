@@ -24,9 +24,9 @@ public class Main {
                 case 1:
                     System.out.println("//////////// DATA MAHASISWA /////////////");
                     System.out.println("Masukkan Nama Depan : ");
-                    person.setFirstName(input.next());
+                    student.setFirstName(input.next());
                     System.out.println("Masukkan Nama Belakang : ");
-                    person.setLastName(input.next());
+                    student.setLastName(input.next());
                     System.out.println("Masukkan NIM : ");
                     student.setCardIdentitas(input.next());
                     System.out.println("Masukkan Domisili : ");
@@ -45,7 +45,7 @@ public class Main {
                     student.studentRegistration();
                     person.domisili(); 
                     
-                    System.out.println("//////////////////////////////////////////");
+                    System.out.println("/////////////////////////////////////////////////////////////");
                     System.out.println(" ");
                 break;
                 case 2:

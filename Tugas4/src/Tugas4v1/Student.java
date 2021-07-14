@@ -54,8 +54,11 @@ public class Student extends Person implements Service
         for (int total : sks) { jumlah = jumlah + total; }
         if (jumlah > 144) {
             System.out.println("Jumlah Total SKS : " + jumlah);
-            System.out.println("Nama Lengkap dengan Gelar : " + fullName + ", S.Pd.");
+            System.out.println("Nama Lengkap dengan Gelar : " + getFullName() + ", S.Pd.");
         }
-        return;
+        else {
+            System.out.println("Jumlah Total SKS : " + jumlah);
+            super.fullName();
+        }
     }
 }
